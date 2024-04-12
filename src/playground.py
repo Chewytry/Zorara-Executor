@@ -26,7 +26,7 @@ def playground():
         submit = st.form_submit_button("Submit")
 
         if submit:
-            st.text("Submitted. Check `Patient Data` tab for details.")
+            st.write("Submitted. Check `Patient Data` tab for details.")
             if uploaded_file is not None:
                 st.image(uploaded_file, caption='Uploaded Image', use_column_width=True)
                 label = predict_with_cnn(uploaded_file)
