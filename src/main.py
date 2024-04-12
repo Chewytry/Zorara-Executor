@@ -1,8 +1,6 @@
 import streamlit as st
 from landing import landing
-from report import report
 from playground import playground
-from notebook import notebook
 from patient_data import patient_data
 
 # Page configs
@@ -17,19 +15,27 @@ st.set_page_config(
 if 'patient_data_list' not in st.session_state:
     st.session_state['patient_data_list'] = []
 
+if 'page' not in st.session_state:
+    st.session_state['page'] = "Home"
+
+
 # Define the pages of the app
 PAGES = {
-    "Landing": landing,
-    #"Report": report,
-    "Notebook": notebook,
-    "Playground": playground,
-    "Patient Data": patient_data
+    "Home": landing,
+    "Input Patient Data": playground,
+    "Patient Database": patient_data
 }
 
 # Sidebar for navigation
 st.sidebar.title('Navigation')
-selection = st.sidebar.selectbox("Go to", list(PAGES.keys()))
+with st.sidebar:
+    for key, value in PAGES.items():
+        if st.button(key):
+            selection = key
+            st.session_state['page'] = key
+
+#selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 
 # Render the selected page
-page = PAGES[selection]
+page = PAGES[st.session_state.get('page')]
 page()
