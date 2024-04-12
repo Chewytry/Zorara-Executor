@@ -2,3 +2,6 @@
 base="dark"
 backgroundColor="#05182e"
 secondaryBackgroundColor="#2f3152"
+[server]
+enableXsrfProtection = false
+enableCORS = false
