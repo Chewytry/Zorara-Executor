@@ -1,3 +1,4 @@
 streamlit
 jupyter
 tensorflow
+opencv-python 
