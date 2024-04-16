@@ -1,9 +1,9 @@
 import streamlit as st
 import datetime
 
-# Set custom range of years
+# Set custom range of years for date of birth
 current_year = datetime.date.today().year
-min_year = current_year - 100  # For example, set the minimum year to 100 years ago
+min_year = current_year - 100  # Set the minimum year to 100 years ago
 max_year = current_year  # Set the maximum year to the current year
 
 from model_predict import predict_with_cnn
