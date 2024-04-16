@@ -3,32 +3,30 @@ import streamlit as st
 def landing():
     t1,t2 = st.columns((0.15,1))
 
-    t1.image("assets\logo.png", width = 120)
+    t1.image("../assets/logo.png", width = 120)
     t2.title("CS3244 Brain Tumor - Welcome")
 
     st.markdown('## Motivation')
 
     st.markdown("""Traditional methods for diagnosing brain tumours often involve manual analysis, which is characterised by laboriousness, subjectivity, and a high potential for errors.
-        To address this issue, we aim to automate and enhance the accuracy of brain tumour identification through the use of deep learning and machine learning techniques which will be elaborated on later. 
+        To address these challenges, we aim to automate and refine the accuracy of brain tumor identification through cutting-edge deep learning and machine learning techniques.
         This enables early detection, which is crucial for improving patient outcomes and increases the likelihood of successful treatments. 
-        Furthermore, high-accuracy models capable of detecting subtle patterns and abnormalities in medical images can prevent unnecessary treatments and false negatives. 
-        Ultimately, this effort aims to revolutionise the diagnosis and treatment of brain tumours by implementing advanced deep learning and machine learning techniques, 
+        Furthermore, high-accuracy models capable of detecting subtle patterns and abnormalities in medical images can reduce unnecessary treatments and false negatives. 
+        Ultimately, this effort aims to revolutionise the diagnosis and treatment of brain tumours by leveraging advanced deep learning and machine learning techniques, 
         which have the potential to significantly impact patient care and advance the field of medical imaging analysis.""")
     
     st.markdown('## Description of Project')
 
-    st.markdown("""We will build a machine learning model that will predict the presence of a brain tumour via image classification based on a dataset that consists of scanned
-    (Magnetic Resonance Imaging (MRI) images of brains of patients diagnosed with brain tumours. """)
+    st.markdown("""Our project entails the development of a machine learning model designed to predict the presence of brain tumors through image classification. Leveraging a dataset 
+                comprising Magnetic Resonance Imaging (MRI) scans of patients diagnosed with brain tumors, our model aims to provide accurate and efficient diagnoses, thereby 
+                contributing to the advancement of brain tumor detection and treatment. """)
 
-    st.markdown('## How to use this app?')
+    st.markdown('## App Details')
 
-    st.markdown('### Notebook')
-    st.markdown("""This tab brings you to the notebook of our project""")
-
-    st.markdown('### Playground')
-    st.markdown("""The playground allows users (e.g. our target users - medical personnel) to upload MRI images of their patients, together with their details.
-                Theese images are processed using our trained CNN model to detect the presence of tumors. Subsequently, all gathered information is stored in the patient database.
-                There are example MRI images for user to drag and drop to try out the form.""")
+    st.markdown('### Patient Details Form')
+    st.markdown("""This page serves as a platform for users, specifically medical personnels, to upload MRI images of their patients along with corresponding patient details.
+                These images are processed using our trained CNN model to detect the presence of tumors. Subsequently, all gathered information is stored in the patient database.
+                Users have the option to experiment with the form by dragging and dropping example MRI images provided.""")
     
-    st.markdown('### Patient Data')
-    st.markdown("""This is where all the patient's data are stored in the current session. """)
+    st.markdown('### Patient Databse')
+    st.markdown("""This section functions as the repository for all patient data collected during the current session.""")

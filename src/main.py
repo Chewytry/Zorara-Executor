@@ -8,7 +8,7 @@ st.set_page_config(
     page_title="CS3244 Brain Tumor Prediction",
     layout="wide",
     initial_sidebar_state="expanded",
-    page_icon="assets\logo.png"
+    page_icon="../assets/logo.png"
 )
 
 # Initialize patient data list in session state
@@ -22,7 +22,7 @@ if 'page' not in st.session_state:
 # Define the pages of the app
 PAGES = {
     "Home": landing,
-    "Input Patient Data": playground,
+    "Patient Details Form": playground,
     "Patient Database": patient_data
 }
 
