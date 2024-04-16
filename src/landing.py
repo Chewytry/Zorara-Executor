@@ -3,7 +3,7 @@ import streamlit as st
 def landing():
     t1,t2 = st.columns((0.15,1))
 
-    t1.image("assets\logo.png", width = 120)
+    t1.image("assets/logo.png", width = 120)
     t2.title("CS3244 Brain Tumor - Welcome")
 
     st.markdown('## Motivation')
