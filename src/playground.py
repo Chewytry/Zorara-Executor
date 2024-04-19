@@ -15,10 +15,10 @@ def playground():
     st.text("In order: no tumor, no tumor, tumor, tumor")
 
     t4,t5,t6,t7 = st.columns(4)
-    t4.image("../assets/no_tumour_1.jpg")
-    t5.image("../assets/no_tumour_2.jpg")
-    t6.image("../assets/tumour_1.jpg")
-    t7.image("../assets/tumour_2.jpg")
+    t4.image("assets/no_tumour_1.jpg")
+    t5.image("assets/no_tumour_2.jpg")
+    t6.image("assets/tumour_1.jpg")
+    t7.image("assets/tumour_2.jpg")
     
 
     with st.form("Patient's Details"):
