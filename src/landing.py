@@ -29,5 +29,5 @@ def landing():
                 These images are processed using our trained CNN model to detect the presence of tumors. Subsequently, all gathered information is stored in the patient database.
                 Users have the option to experiment with the form by dragging and dropping example MRI images provided.""")
     
-    st.markdown('### Patient Databse')
+    st.markdown('### Patient Database')
     st.markdown("""This section functions as the repository for all patient data collected during the current session.""")
