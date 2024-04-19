@@ -1,4 +1,4 @@
 streamlit
 jupyter
-tensorflow
+tensorflow==2.7.0
 opencv-python-headless
