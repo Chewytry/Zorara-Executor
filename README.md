@@ -1,4 +1,4 @@
-# Group 44
+# Brain Tumor Classification
 
 ## Instructions
 
